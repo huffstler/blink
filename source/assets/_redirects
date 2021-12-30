@@ -1,0 +1,5 @@
+# Netlify redirects and rewrites configuration
+# https://docs.netlify.com/routing/redirects/
+
+# Redirect any non-existing files to /
+/* / 200

@@ -1,0 +1,38 @@
+[
+  {
+    "regex": "amazon\\.com$",
+    "text": "Amazon"
+  },
+  {
+    "regex": "(itunes|music)\\.apple\\.com$",
+    "text": "Apple Music"
+  },
+  {
+    "regex": "bandcamp\\.com$",
+    "text": "Bandcamp"
+  },
+  {
+    "regex": "beatport\\.com$",
+    "text": "Beatport"
+  },
+  {
+    "regex": "deezer\\.com$",
+    "text": "Deezer"
+  },
+  {
+    "regex": "qobuz\\.com$",
+    "text": "Qobuz"
+  },
+  {
+    "regex": "soundcloud\\.com$",
+    "text": "SoundCloud"
+  },
+  {
+    "regex": "spotify\\.com$",
+    "text": "Spotify"
+  },
+  {
+    "regex": "tidal\\.com$",
+    "text": "Tidal"
+  }
+]

@@ -1,0 +1,54 @@
+.release {
+  background-color: var(--background-2);
+  box-shadow: 0 0 1rem #000;
+  margin: 2rem auto;
+  width: 35%;
+}
+
+.release-header {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  img {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+}
+
+.release-main {
+  padding: 1rem;
+}
+
+.release-links {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(1, 1fr);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  .no-links {
+    text-align: center;
+  }
+}
+
+.release-link {
+  a {
+    background-color: var(--background-1);
+    border-radius: var(--border-radius);
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--foreground-1);
+    }
+  }
+}

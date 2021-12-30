@@ -1,0 +1,9 @@
+.home-page {
+  padding: 1rem;
+
+  h1::after {
+    content: 'WIP';
+    font-size: 1rem;
+    vertical-align: top;
+  }
+}
