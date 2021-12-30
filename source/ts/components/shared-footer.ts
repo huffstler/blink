@@ -7,7 +7,7 @@ export default class SharedFooter extends Component {
     return html`
       <footer class="shared-footer">
         <${ExternalAnchor} text="GitHub" url="https://github.com/Bauke/blink" />
-        <span> v${window.blinkVersion} (${window.blinkCommitHash})</span>
+        <span> v${blinkVersion} (${blinkCommitHash})</span>
       </footer>
     `;
   }

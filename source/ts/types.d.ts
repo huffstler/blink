@@ -2,9 +2,7 @@
 export {};
 
 declare global {
-  interface Window {
-    // These are created in `vite.config.ts` and defined by Vite at build time.
-    blinkCommitHash: string;
-    blinkVersion: string;
-  }
+  // These are created in `vite.config.ts` and inserted by Vite at build time.
+  const blinkCommitHash: string;
+  const blinkVersion: string;
 }
