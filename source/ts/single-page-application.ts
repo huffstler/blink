@@ -1,6 +1,8 @@
 // Uncomment when debugging and using Preact's DevTools WebExtension.
 // import 'preact/debug';
 
+import '@fontsource/inter/latin.css';
+
 import {html, render} from 'htm/preact';
 import {Router} from 'preact-router';
 
